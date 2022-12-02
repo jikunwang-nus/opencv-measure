@@ -1,9 +1,10 @@
 #!flask/bin/python
 import os
-import coreCV
-from flask import Flask, jsonify, json, send_from_directory
+
+from flask import Flask, jsonify, send_from_directory
 from flask import request
 
+import coreCV
 import image
 from result import Rt
 
