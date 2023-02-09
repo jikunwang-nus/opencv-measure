@@ -12,3 +12,4 @@ def return_img_stream(img_local_path):
         img_stream = base64.b64encode(img_stream).decode()
     return img_stream
 
+

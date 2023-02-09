@@ -423,3 +423,6 @@ def handle_entry(handle_path):
         offset.append(cur_row)
     # 输出偏离值结果数据
     save_offset_to_excel(offset)
+
+def trans_to_red(path):
+    img = cv.imread("img.jpg")
