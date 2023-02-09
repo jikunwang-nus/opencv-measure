@@ -24,7 +24,7 @@ def ping():
 def save_image():
     file = request.files['file']
     file_name = file.filename
-    file_pre_path = os.getcwd() + '/temp/' + file_name
+    file_pre_path = os.getcwd() + '/' + file_name
     if file:
         file.save(file_pre_path)
         coreCV.handle_entry(file_pre_path)
